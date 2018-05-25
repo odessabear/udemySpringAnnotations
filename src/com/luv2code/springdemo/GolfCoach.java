@@ -9,4 +9,9 @@ public class GolfCoach implements Coach {
     public String GetDailyWorkout() {
         return "I'm always trying to win!";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
