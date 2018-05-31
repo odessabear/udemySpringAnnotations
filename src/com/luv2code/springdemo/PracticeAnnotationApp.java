@@ -12,6 +12,8 @@ public class PracticeAnnotationApp {
 
         System.out.println(theCoach.GetDailyWorkout());
 
+        System.out.println(theCoach.getDailyFortune());
+
         context.close();
     }
 }

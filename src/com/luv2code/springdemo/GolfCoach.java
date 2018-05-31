@@ -1,9 +1,17 @@
 package com.luv2code.springdemo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class GolfCoach implements Coach {
+
+    @Autowired
+    private FortuneService fortuneService;
+
+    public GolfCoach(){
+        System.out.println(">> GolfCoach: inside default constructor");
+    }
 
     @Override
     public String GetDailyWorkout() {
@@ -12,6 +20,6 @@ public class GolfCoach implements Coach {
 
     @Override
     public String getDailyFortune() {
-        return null;
+        return fortuneService.getFortune();
     }
 }
