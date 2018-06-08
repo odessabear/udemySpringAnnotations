@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component
+//@Component
 public class FileFortuneService implements FortuneService {
 
     private String fileName = "D:/Development/fortune-data.txt";
