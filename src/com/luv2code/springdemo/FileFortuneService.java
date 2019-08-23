@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-//@Component
+@Component
 public class FileFortuneService implements FortuneService {
 
     private String fileName = "D:/Development/fortune-data.txt";
-    private List<String> thefortunes;
+    private List<String> theFortunes;
 
     //create a random number generator
     private Random myRandom = new Random();
@@ -24,14 +24,14 @@ public class FileFortuneService implements FortuneService {
         System.out.println("file exists: " + theFile.exists());
 
         //initialize array list
-        thefortunes = new ArrayList<String>();
+        theFortunes = new ArrayList<>();
 
         //read fortunes from file
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(theFile))) {
             String tempLine;
 
             while ((tempLine = bufferedReader.readLine()) != null) {
-                thefortunes.add(tempLine);
+                theFortunes.add(tempLine);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -42,8 +42,8 @@ public class FileFortuneService implements FortuneService {
 
     @Override
     public String getFortune() {
-        int index = myRandom.nextInt(thefortunes.size());
-        String tempFortune = thefortunes.get(index);
+        int index = myRandom.nextInt(theFortunes.size());
+        String tempFortune = theFortunes.get(index);
         return tempFortune;
     }
 }
