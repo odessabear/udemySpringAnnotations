@@ -10,7 +10,7 @@ import java.util.Random;
 @Component
 public class FileFortuneService implements FortuneService {
 
-    private String fileName = "D:/Development/fortune-data.txt";
+    private String fileName = "E:/DEV/fortune-data.txt";
     private List<String> theFortunes;
 
     //create a random number generator

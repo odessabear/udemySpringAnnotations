@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7c103d-775c-4f8f-9dee-e1a48f291c67" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/Coach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/FortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/GolfCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/GolfCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +26,28 @@
   </component>
   <component name="ProjectId" id="1PUiR0Z1UQfPqt02dlui74xW0ga" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530797043567" />
-    <property name="last_opened_file_path" value="$USER_HOME$/spring-demo-one" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -141,6 +149,8 @@
       <workItem from="1531748928606" duration="596000" />
       <workItem from="1565935071203" duration="2481000" />
       <workItem from="1566457312796" duration="7878000" />
+      <workItem from="1568718311626" duration="1302000" />
+      <workItem from="1568736453031" duration="6953000" />
     </task>
     <task id="LOCAL-00001" summary="Practice with Annotations">
       <created>1527090267557</created>
@@ -196,80 +206,28 @@
     <MESSAGE value=" annotations practice" />
     <option name="LAST_COMMIT_MESSAGE" value=" annotations practice" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spring-demo-annotations</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>spring-aop-5.0.5.RELEASE-javadoc</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080/1920.1080" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.1080/1920.1080" />
+    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
+    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.1080/1920.1080" />
+    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" />
+    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/1920.1080/1920.1080" />
+    <state x="743" y="183" key="FileChooserDialogImpl" />
+    <state x="743" y="183" key="FileChooserDialogImpl/1920.1080/1920.1080" />
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" />
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/1920.1080/1920.1080" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center/1920.1080/1920.1080" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left/1920.1080/1920.1080" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/1920.1080/1920.1080" />
+    <state x="440" y="94" key="SettingsEditor" />
+    <state x="440" y="94" key="SettingsEditor/1920.1080/1920.1080" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/1920.1080/1920.1080" />
   </component>
 </project>
