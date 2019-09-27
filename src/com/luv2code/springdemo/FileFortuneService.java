@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-//@Component
+@Component
 public class FileFortuneService implements FortuneService {
 
     private String fileName = "E:/DEV/fortune-data.txt";
@@ -33,8 +33,6 @@ public class FileFortuneService implements FortuneService {
             while ((tempLine = bufferedReader.readLine()) != null) {
                 theFortunes.add(tempLine);
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

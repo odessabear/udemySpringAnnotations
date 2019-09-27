@@ -4,31 +4,30 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class TennisCoach implements Coach {
 
-    @Autowired
-    //@Qualifier("happyFortuneService")
+    //@Autowired
+    //@Qualifier("randomFortuneService")
     private FortuneService fortuneService;
 
-     @Autowired
-    public TennisCoach(FortuneService theFortuneService) {
-        fortuneService = theFortuneService;
-    }
-
-//    public TennisCoach() {
-//        System.out.println(">> TennisCoach: inside default constructor ");
+//     @Autowired
+//    public TennisCoach(FortuneService theFortuneService) {
+//        fortuneService = theFortuneService;
 //    }
+    public TennisCoach(){
+        System.out.println("Default constructor");
+    }
 
 //    @Autowired
 //    public void setFortuneService(FortuneService theFortuneService) {
 //        System.out.println(">> TennisCoach: inside doSomeCrazyStuff() method ");
 //        fortuneService = theFortuneService;
-//    }
+//   }
 
 
 //    @Autowired
-//    public void doSomeCrazyStuff(@Qualifier("randomFortuneService")FortuneService theFortuneService) {
+//    public void doSomeCrazyStuff(FortuneService theFortuneService) {
 //        System.out.println(">> TennisCoach: inside doSomeCrazyStuff() method ");
 //
 //        fortuneService = theFortuneService;
