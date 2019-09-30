@@ -2,13 +2,17 @@ package com.luv2code.springdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-//@Component
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+@Component
 public class TennisCoach implements Coach {
 
-    //@Autowired
-    //@Qualifier("randomFortuneService")
+    @Autowired
+    @Qualifier("fileFortuneService")
     private FortuneService fortuneService;
 
 //     @Autowired
@@ -16,8 +20,22 @@ public class TennisCoach implements Coach {
 //        fortuneService = theFortuneService;
 //    }
     public TennisCoach(){
-        System.out.println("Default constructor");
+        System.out.println(" Tennis Default constructor");
     }
+
+    //define my init method
+   @PostConstruct
+    public void doMyStartupStaff(){
+        System.out.println(">> Tennis coach of doMyStartupStaff()");
+    }
+
+    // define destroy method
+    @PreDestroy
+    public void doCleanupStuff(){
+        System.out.println(">> Tennis coach of doCleanupStuff()");
+    }
+
+
 
 //    @Autowired
 //    public void setFortuneService(FortuneService theFortuneService) {
