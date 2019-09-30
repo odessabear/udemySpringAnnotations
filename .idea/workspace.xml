@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7c103d-775c-4f8f-9dee-e1a48f291c67" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/JavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/SportConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/DatabaseFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/DatabaseFortuneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FileFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FileFortuneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RESTFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RESTFortuneService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-demo-annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-annotations.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/DatabaseFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/DatabaseFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/RESTFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/RESTFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +56,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -67,6 +66,10 @@
       <recent name="E:\DEV\udemySpringAnnotations\src\com\luv2code\springdemo" />
       <recent name="C:\Users\alexander.mikhailov\IdeaProjects\spring-demo-annotations\src" />
       <recent name="C:\Users\alexander.mikhailov\IdeaProjects\spring-demo-annotations" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luv2code.springdemo.congigurationWithXML" />
+      <recent name="com.luv2code.springdemo.configWithJavaCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DEV\udemySpringAnnotations\src" />
@@ -84,14 +87,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnotationBeanScopeDemoApp">
+  <component name="RunManager" selected="Application.JavaConfigDemoApp (1)">
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.AnnotationBeanScopeDemoApp" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.AnnotationBeanScopeDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +103,21 @@
       </method>
     </configuration>
     <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.AnnotationDemoApp" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.AnnotationDemoApp" />
+      <module name="spring-demo-annotations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigDemoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.JavaConfigDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -113,13 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeAnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.PracticeAnnotationApp" />
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.JavaConfigDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeAnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.PracticeAnnotationApp" />
+      <module name="spring-demo-annotations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +184,16 @@
       <item itemvalue="Application.AnnotationDemoApp" />
       <item itemvalue="Application.PracticeAnnotationApp" />
       <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
+      <item itemvalue="Application.JavaConfigDemoApp" />
+      <item itemvalue="Application.JavaConfigDemoApp (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
+        <item itemvalue="Application.JavaConfigDemoApp (1)" />
+        <item itemvalue="Application.JavaConfigDemoApp" />
         <item itemvalue="Application.AnnotationDemoApp" />
         <item itemvalue="Application.PracticeAnnotationApp" />
+        <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568995849223</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring Configuration with Java Annotations - Bean Scopes and Lifecycle Methods done">
+      <created>1569826134854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569826134854</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Spring Configuration with Java Annotations - Bean Scopes and Lifecycle Methods finished">
+      <created>1569826266805</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569826266805</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,9 +310,14 @@
     <MESSAGE value="working in chapter 7 with Java Annotations" />
     <MESSAGE value="practice IoC with annotations completed" />
     <MESSAGE value="Spring configuration with Java Annotations started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring configuration with Java Annotations started" />
+    <MESSAGE value="Spring Configuration with Java Annotations - Bean Scopes and Lifecycle Methods done" />
+    <MESSAGE value="Spring Configuration with Java Annotations - Bean Scopes and Lifecycle Methods finished" />
+    <MESSAGE value="Spring Configuration with Java Code(no XML)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Configuration with Java Code(no XML)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" />
+    <state x="552" y="178" key="#Project_Structure/1920.1080/1920.1080" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080/1920.1080" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" />
@@ -282,6 +336,8 @@
     <state width="1860" height="279" key="GridCell.Tab.0.left/1920.1080/1920.1080" />
     <state width="1860" height="279" key="GridCell.Tab.0.right" />
     <state width="1860" height="279" key="GridCell.Tab.0.right/1920.1080/1920.1080" />
+    <state x="540" y="262" key="IDE.errors.dialog" />
+    <state x="540" y="262" key="IDE.errors.dialog/1920.1080/1920.1080" />
     <state x="597" y="231" key="RollbackChangesDialog" />
     <state x="597" y="231" key="RollbackChangesDialog/1920.1080/1920.1080" />
     <state x="440" y="94" key="SettingsEditor" />
@@ -292,5 +348,7 @@
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog/1920.1080/1920.1080" />
     <state x="727" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" />
     <state x="727" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/1920.1080/1920.1080" />
+    <state x="656" y="190" width="607" height="660" key="find.popup" />
+    <state x="656" y="190" width="607" height="660" key="find.popup/1920.1080/1920.1080" />
   </component>
 </project>

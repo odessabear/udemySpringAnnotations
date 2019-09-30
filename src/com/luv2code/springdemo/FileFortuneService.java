@@ -2,6 +2,7 @@ package com.luv2code.springdemo;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +18,12 @@ public class FileFortuneService implements FortuneService {
     private Random myRandom = new Random();
 
     public FileFortuneService() {
+        System.out.println("FileFortuneService default constructor");
+    }
 
+    @PostConstruct
+    private void setFileFortuneService() {
+        System.out.println("Inside PostConstruct method");
         File theFile = new File(fileName);
 
         System.out.println("Reading fortunes from file: " + theFile);
@@ -38,10 +44,11 @@ public class FileFortuneService implements FortuneService {
         }
     }
 
-    @Override
-    public String getFortune() {
-        int index = myRandom.nextInt(theFortunes.size());
-        String tempFortune = theFortunes.get(index);
-        return tempFortune;
+        @Override
+        public String getFortune () {
+            int index = myRandom.nextInt(theFortunes.size());
+            String tempFortune = theFortunes.get(index);
+            return tempFortune;
+        }
     }
-}
+
