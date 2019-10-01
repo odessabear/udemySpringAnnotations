@@ -1,6 +1,5 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.javaBasedAnnotations;
 
-import com.luv2code.springdemo.SportConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class JavaConfigDemoApp {
@@ -12,7 +11,7 @@ public class JavaConfigDemoApp {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
 //        get the bean from spring container
 
-        Coach theCoach = context.getBean("tennisCoach", Coach.class);
+        com.luv2code.springdemo.javaBasedAnnotations.Coach theCoach = context.getBean("swimCoach", Coach.class);
 //        call a method on the bean
 
         System.out.println(theCoach.GetDailyWorkout());

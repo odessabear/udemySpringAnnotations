@@ -2,19 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed7c103d-775c-4f8f-9dee-e1a48f291c67" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/JavaConfigDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/MyLoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/FileFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/SadFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/SwimCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/SwimJavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mylogger.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/DatabaseFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/DatabaseFortuneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FileFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FileFortuneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RESTFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RESTFortuneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo-annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-annotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/DatabaseFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/DatabaseFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/RESTFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/RESTFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-demo-annotations/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/AnnotationBeanScopeDemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/AnnotationDemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/Coach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/DatabaseFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FileFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/FortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/GolfCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/HappyFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/PracticeAnnotationApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RESTFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/RandomFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-demo-annotations/com/luv2code/springdemo/TennisCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/AnnotationBeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/AnnotationBeanScopeDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/AnnotationDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/DatabaseFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/DatabaseFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/FileFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/FortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/GolfCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/GolfCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/HappyFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/JavaConfigDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/javaBasedAnnotations/JavaConfigDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/PracticeAnnotationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/PracticeAnnotationApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/RESTFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/RESTFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/RandomFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/RandomFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/SportConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/annotationsWithXML/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +93,8 @@
       <recent name="C:\Users\alexander.mikhailov\IdeaProjects\spring-demo-annotations" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luv2code.springdemo.javaBasedAnnotations" />
+      <recent name="com.luv2code.springdemo" />
       <recent name="com.luv2code.springdemo.congigurationWithXML" />
       <recent name="com.luv2code.springdemo.configWithJavaCode" />
     </key>
@@ -88,13 +115,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.JavaConfigDemoApp (1)">
+    <configuration name="AnnotationBeanScopeDemoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.annotationsWithXML.AnnotationBeanScopeDemoApp" />
+      <module name="spring-demo-annotations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.annotationsWithXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.AnnotationBeanScopeDemoApp" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.javaBasedAnnotations.AnnotationBeanScopeDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.javaBasedAnnotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,27 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.AnnotationDemoApp" />
+    <configuration name="AnnotationDemoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.annotationsWithXML.AnnotationDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaConfigDemoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.JavaConfigDemoApp" />
-      <module name="spring-demo-annotations" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.annotationsWithXML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +158,12 @@
       </method>
     </configuration>
     <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.JavaConfigDemoApp" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.javaBasedAnnotations.JavaConfigDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.javaBasedAnnotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeAnnotationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.congigurationWithXML.PracticeAnnotationApp" />
+    <configuration name="SwimJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.javaBasedAnnotations.SwimJavaConfigDemoApp" />
       <module name="spring-demo-annotations" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luv2code.springdemo.congigurationWithXML.*" />
+          <option name="PATTERN" value="com.luv2code.springdemo.javaBasedAnnotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,19 +208,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnnotationDemoApp" />
-      <item itemvalue="Application.PracticeAnnotationApp" />
-      <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
-      <item itemvalue="Application.JavaConfigDemoApp" />
       <item itemvalue="Application.JavaConfigDemoApp (1)" />
+      <item itemvalue="Application.SwimJavaConfigDemoApp" />
+      <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
+      <item itemvalue="Application.AnnotationDemoApp (1)" />
+      <item itemvalue="Application.AnnotationBeanScopeDemoApp (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JavaConfigDemoApp (1)" />
-        <item itemvalue="Application.JavaConfigDemoApp" />
-        <item itemvalue="Application.AnnotationDemoApp" />
-        <item itemvalue="Application.PracticeAnnotationApp" />
+        <item itemvalue="Application.AnnotationBeanScopeDemoApp (1)" />
+        <item itemvalue="Application.AnnotationDemoApp (1)" />
         <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
+        <item itemvalue="Application.SwimJavaConfigDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569826266805</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spring Configuration with Java Code(no XML)">
+      <created>1569863123525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569863123525</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,12 +354,16 @@
     <state x="552" y="178" key="#Project_Structure/1920.1080/1920.1080" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080/1920.1080" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.1080/1920.1080" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.1080/1920.1080" />
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.1080/1920.1080" />
     <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" />
     <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/1920.1080/1920.1080" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.1080/1920.1080" />
     <state x="743" y="183" key="FileChooserDialogImpl" />
     <state x="743" y="183" key="FileChooserDialogImpl/1920.1080/1920.1080" />
     <state width="1860" height="279" key="GridCell.Tab.0.bottom" />

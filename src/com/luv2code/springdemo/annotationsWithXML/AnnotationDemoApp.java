@@ -1,18 +1,26 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.annotationsWithXML;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class PracticeAnnotationApp {
+public class AnnotationDemoApp {
 
     public static void main(String[] args) {
 
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        //        read spring config file
 
-        Coach theCoach = context.getBean("tennisCoach",Coach.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+//        get the bean from spring container
+
+        Coach theCoach = context.getBean("golfCoach", Coach.class);
+//        call a method on the bean
 
         System.out.println(theCoach.GetDailyWorkout());
 
+        //call method to get the daily Fortune Service
+
         System.out.println(theCoach.getDailyFortune());
+
+//        close the context
 
         context.close();
     }

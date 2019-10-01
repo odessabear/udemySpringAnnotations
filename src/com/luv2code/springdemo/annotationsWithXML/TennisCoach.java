@@ -1,4 +1,4 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.annotationsWithXML;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -11,7 +11,7 @@ import javax.annotation.PreDestroy;
 public class TennisCoach implements Coach {
 
     @Autowired
-    @Qualifier("fileFortuneService")
+    @Qualifier("happyFortuneService")
     private FortuneService fortuneService;
 
 //     @Autowired
